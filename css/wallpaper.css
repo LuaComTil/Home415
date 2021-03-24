@@ -1,0 +1,14 @@
+.shadowwallpaper {
+    box-shadow: inset 0px 0px 40px 8px black;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.wallpaper {
+    background-image: url('../img/wallpaper.jpg');
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}

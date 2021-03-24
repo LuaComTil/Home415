@@ -1,0 +1,46 @@
+.youtube {
+    background-image: url('../img/Youtube.png');
+    
+}
+.alura {
+    background-image: url('../img/Alura.png');
+}
+.linkedin {
+    background-image: url('../img/Linkedin.png');
+}
+.github {
+    background-image: url('../img/Github.png');
+}
+main {
+    bottom: 0;
+    position: absolute;
+    left: calc(50% - 97px*4) ;
+}
+    main ul div {
+    background-size: cover;
+    height: 90px;
+    width: 90px;
+}
+main ul {
+    display: flex;
+}
+
+    main ul li a {
+    background-color: #ffffff34;
+    border-style:solid;
+    border-width:2px;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 20px 6px black;
+    color: #ffffffa4;
+    display: inline-block;
+    padding: 20px 50px;
+    transition: 0.25s background-color;
+    transition: 0.25s box-shadow;
+}
+main ul li a:hover {
+    background-color: #ffffff77;
+    color: #ffffff;
+}
+main ul li a:active {
+    box-shadow: none
+}
